@@ -1,0 +1,441 @@
+body	{ margin:0; padding:0; border:0; background:#FFF;	}
+
+/* old styles still in use */
+/* newer styles listed at bottom */
+
+/* begin links */
+.sidelinks {  
+	font: normal 10px/14px Verdana, Arial, Helvetica, sans-serif; 
+	color: #000000; 
+	text-decoration: none; 
+	clip: rect(   ); 
+	width: 120px; 
+	height: 15px; 
+	white-space: nowrap;
+}
+a.sidelinks:hover {  
+	color: #000000; 
+	background: #e6e6e6; 
+	clip: rect(   ); 
+	width: 120px; 
+	height: 15px; 
+	line-height: 14px; 
+	text-decoration: none;
+}
+.sidelinksPRODUCTS {
+	font: normal 10px/14px Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none; }
+/*	width: 120px;
+	height: 15px;
+	white-space: nowrap;
+	border: none; */
+
+a.sidelinksPRODUCTS:hover {
+	background: #e6e6e6; }
+/*	clip: rect( );
+	width: 120px;
+	height: 15px;
+	line-height: 14px;
+	text-decoration: none;
+	border: none; */
+
+.sidelinksWrap3lines {
+	font: normal 10px/12px Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none;
+	clip: rect(   );
+	width: 120px;
+	height: 40px;
+	background: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+a.sidelinksWrap3lines:hover {
+	color: #000000;
+	background: #e6e6e6;
+	line-height: 12px;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+.sidelinksWrap {
+	font: normal 10px/12px Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none;
+	width: 120;
+	height: 25;
+	background: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+a.sidelinksWrap:hover {
+	color: #000000;
+	background: #e6e6e6;
+	width: 120;
+	height: 25;
+	line-height: 12px;
+	text-decoration: none;
+	border: none;
+}
+.marketlinks {  
+	font: bold 10px Verdana, Arial, Helvetica, sans-serif; 
+	color: #FFFFFF; 
+	clip: rect(   ); 
+	text-decoration: none;
+}
+.LinkCategory {  
+	font: bold normal 10px/16px Verdana, Arial, Helvetica, sans-serif; 
+	color: #FFFFFF; 
+	text-decoration: none; 
+	vertical-align: middle; 
+	width: 120px; 
+	height: 16px; 
+	clip: rect(   )
+}
+.linkedheading {  
+	font: bold 14px Arial, Helvetica, sans-serif; 
+	color: #FFFFFF; 
+	text-decoration: none; 
+	vertical-align: top;
+}
+
+/* end links */
+/* begin text */
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0;
+	padding:0;
+	border:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	line-height:1.2em;
+	}
+
+h1 {
+	padding:0 0 1em 0;
+	font-size:32px;
+	}
+h2	{ 
+	padding:0 0 1em 0;
+	font-size:24px;
+	}
+h3 {
+	padding:0 0 1em 0;
+	font-size:19px;
+	}
+h4 {
+	padding:0 0 1em 0;
+	font-size:16px;
+	}
+h5 {
+	padding:0 0 1em 0;
+	font-size:13px;
+	}
+h6 {
+	padding:0 0 1em 0;
+	font-size:11px;
+	}
+
+.comboboxlite {  
+	font: 10px Arial, Helvetica, sans-serif; 
+	background: #FFFFFF;
+}
+.breadcrumb {  
+	font: 10px Arial, Helvetica, sans-serif; 
+	color: #000000; 
+	text-decoration: none;
+	width:100%;
+}
+.ptext10 {  
+	font: normal 10px/normal Arial, Helvetica, sans-serif; 
+	color: #000000; 
+	text-decoration: none;
+}
+.ptextitalics {
+	font: italic 11px Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+}
+.market {  
+	font: normal 18px/normal Arial, Helvetica, sans-serif; 
+	color: #999999; 
+	text-decoration: none;
+}
+.productTypes {  
+	font: normal 10px/normal Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	color: #333333;
+}
+.maintext {  
+	font: normal 11px/normal Arial, Helvetica, sans-serif; 
+	color: #333333; 
+	text-decoration: none; 
+	letter-spacing: normal; 
+	word-spacing: normal;
+}
+.smallwhite {  
+	font: 10px Arial, Helvetica, sans-serif; 
+	color: #FFFFFF; 
+	text-decoration: none;
+}
+.smalltext { 
+	font: normal 10px/normal Arial, Helvetica, sans-serif; 
+	color: #000000; 
+	text-decoration: none; 
+}
+.contactText { 
+	font: normal 10px/12px Arial, Helvetica, sans-serif; 
+	color: #333333; 
+	text-decoration: none; 
+}
+.ptext {  
+	font: 11px Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+}
+.smalltext { 
+	font: 10px/10px Arial, Helvetica, sans-serif; 
+	color: #333333; 
+	text-decoration: none;
+}
+
+/* end text */
+/* begin heading */
+
+.productHeading { 
+	font: bold normal 11px/normal Verdana, Arial, Helvetica, sans-serif; 
+	color: #333333; 
+	text-decoration: none; 
+}
+.heading10 {  
+	font: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000; 
+	vertical-align: middle;
+}
+.productPageHeading20 {  
+	font: bold 18px/normal Verdana, Arial, Helvetica, sans-serif; 
+	color: #666666; 
+	text-decoration: none;
+}
+.heading11 {  
+	font: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold; 
+	text-decoration: none;
+}
+.darkbarHeader { 
+	font: bold 10px Verdana, Arial, Helvetica, sans-serif; 
+	color: #FFFFFF; 
+	clip: rect( ); 
+	text-decoration: none; 
+}
+.heading14 { 
+	font: bold 14px/normal Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+}
+
+/* end heading */
+/* begin list text*/
+
+.list {  
+	font: 11px/18px Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+}
+.listText { 
+	font: 11px/13px Arial, Helvetica, sans-serif; 
+	text-decoration: none ;
+}
+.listGrey { 
+	font: 11px/18px Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	list-style-image: url(/graphics/arrow.gif) ; 
+	color: #333333;
+}
+.listBlue { 
+	font: 11px/18px Arial, Helvetica, sans-serif; 
+	text-decoration: none; 
+	list-style-image: url(/graphics/arrow.gif); 
+	color: #333333; 
+}
+/* end list text*/
+/* end old styles still in use*/
+
+/* begin new styles */
+
+.heading-alt01 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+.heading-alt02 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FD7D01;
+}
+.heading-alt03 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+}
+/*- alternative links  -*/
+A.alt:link
+{
+	color: #FD7D01;
+	text-decoration: underline;
+}
+A.alt:visited
+{
+	color: #FD7D01;
+	text-decoration: underline;
+}
+A.alt:active
+{
+	text-decoration: underline;
+}
+A.alt:hover
+{
+	color: #FD7D01;
+	text-decoration: none;
+}
+
+/* header bars :: added 6.1.04 by kyle */
+/* Sneak Peek Header : dark red header : 100% */
+dl.sneak { width:100%; margin:0; padding:0; background: url(../graphics/gr-cornerBtm.gif) no-repeat bottom right; }
+dt.sneak { margin:0; padding:5px; background: #300 url(../graphics/gr-cornerTop300.gif) no-repeat top right; color:#FFF; }
+dd.sneak { margin:0; padding:0; color:#FC3;}
+
+/* Blue header bar : 100% */ 
+dl { width:100%; margin:0; padding-bottom:8px; background: url(../graphics/gr-cornerBtm.gif) no-repeat bottom right; }
+dt { margin:0; padding:5px; background: #069 url(../graphics/gr-cornerTop300.gif) no-repeat top right; color:#FFF; }
+dd { margin:0; padding:0; color:#FC3;}
+
+/* Blue header bar : 60% */
+dl.hBlue { width:60%; margin:0; padding:0; background: url(../graphics/gr-cornerBtm.gif) no-repeat bottom right; }
+dt.hBlue { margin:0; padding:5px; background: #069 url(../graphics/gr-cornerTop300.gif) no-repeat top right; color:#FFF; }
+dd.hBlue { margin:0; padding:0; color:#FFF; }
+
+dl.blueBox { width:100%; margin:0; padding:0px; background: url(../graphics/gr-cornerBtm.gif) no-repeat bottom right; }
+dt.blueBox { margin:0; padding:5px; background: #069 url(../graphics/gr-cornerTop300.gif) no-repeat top right; color:#FFF; }
+dd.blueBox { margin:0; padding:0; color:#FC3;}
+
+/* Grey header bar : 100% */
+dl.grey100 { width:100%; margin:0; padding:0; background: url(../graphics/gr-cornerBtm.gif) no-repeat bottom right; }
+dt.grey100 { margin:0; padding:5px; background: #CCC url(../graphics/gr-cornerTop300.gif) no-repeat top right; color:#000; }
+
+/* Grey header bar : 60% */
+dl.hGrey { width:60%; margin:0; padding:0; background: url(../graphics/gr-cornerBtm.gif) no-repeat bottom right; }
+dt.hGrey { margin:0; padding:5px; background: #CCC url(../graphics/gr-cornerTop300.gif) no-repeat top right; color:#000; }
+
+dl.greyBox { width:100%; margin:0; padding:0px; background: url(../graphics/gr-cornerBtm.gif) no-repeat bottom right; }
+dt.greyBox { margin:0; padding:5px; background: #999 url(../graphics/gr-cornerTop300.gif) no-repeat top right; color:#FFF; }
+dd.greyBox { margin:0; padding:0; color:#999;}
+
+/* Orange header bar : 100% */
+dl.orange100 { width:100%; margin:0; padding:0; }
+dt.orange100 { margin:0; padding:5px; background: #FD7D01 url(../graphics/gr-cornerTop300.gif) no-repeat top right; color:#FFF; }
+
+/* Orange header bar : 60% */
+dl.orange60 { width:60%; margin:0; padding:0; }
+dt.orange60 { margin:0; padding:5px; background: #FD7D01 url(../graphics/gr-cornerTop300.gif) no-repeat top right; color:#FFF; }
+
+/* package includes header */
+dl.info { width:100%; margin:0; padding:0 8px 0 0; background: url(../graphics/gr-cornerBtm.gif) no-repeat bottom right; }
+dt.info { margin:0; padding:5px; background: #CCC url(../graphics/gr-cornerTop300.gif) no-repeat top right; color:#000; }
+dd.info { margin:0; padding:0; color:#FFF; }
+
+/* Header bar used on the product pages */
+dl.features { width:600px; margin:0px 0px 0px 0px; url(../graphics/gr-cornerBtm.gif) no-repeat bottom right; }
+dt.features { margin:0px; padding:5px; background:#069 url(../graphics/gr-cornerTop300.gif) no-repeat top right; color:#FFF; }
+dd.features { margin:0px; padding:0px; color:#FFF; }
+
+/* Header bar used over the product page Icons */
+.iconHdr { margin:2px 2px 8px 2px; padding:4px; background:#CCC; }
+
+/* This one is for the used for the navigation buttons on the product pages that Dean worked on */
+dl dt.navList { padding:0 0 4px 0; background-color:#FFF; }
+
+/* Product Page Containers */
+.pContainer { padding:12px 0 5px 0; border-bottom:1px dotted #666; width:150px; float:left; }
+.pThumb { margin:0 3px 3px 0; float:left; }
+
+/* Market Page Containers */
+#latestLeft { margin:0; padding:0; }
+.container { padding:12px 0 5px 0; border-bottom:1px dotted #666; width:300px; float:left; }
+.thumb { margin:0 3px 3px 0; float:left; }
+.pressroom { margin:0; padding:12px 0; border-bottom:1px dotted #666; width:95%; float:left; }
+
+/* Gray Header bar for "tools" */
+dl.tools { width:260px; margin:0px 0px 0px 0px; url(../graphics/gr-cornerBtm.gif) no-repeat bottom right; }
+dt.tools { margin:0px; padding:5px; background:#CCC url(../graphics/gr-cornerTop300.gif) no-repeat top right; color:#666; }
+dd.tools { margin:0px; padding:0px; color:#FFF; }
+
+/* left-hand sidebar list styles :: added by Kyle 7.16.04 */
+#packageList {
+	border: none;
+	margin:2px 4px 12px 0; 
+	padding:0 4px 0 1em; 
+}
+#optionalList {
+	border:0;
+	margin:2px 4px 12px 0;
+	padding:0 4px 0 1em;
+}
+
+#features { 
+	border: none;
+	margin: 0;
+	width: 100%;
+	padding-left: 1em;
+}
+#features li { 
+	margin-top:8px;
+}
+
+/* Style added 8.06.04 - this box is part of the media gallery redesign */
+.sideBox { margin:0; padding:4px 10px 10px; border:2px solid #CCCCCC; }
+.popBox { margin:0; padding:10px; border:2px solid #FD7D01; }
+dl.product { width:100%; margin:8px 0; padding:0 8px 0 0; }
+dt.product { margin:0; padding:5px; background: #CCCCCC url(../graphics/gr-cornerTop300.gif) no-repeat top right; color:#333; }
+dl.media { width:100%; margin:0; padding:0 8px 0 0; }
+dt.media { margin:0; padding:5px; background: #EEEEEE url(../graphics/gr-cornerTop300.gif) no-repeat top right; color:#333; }
+
+/* callout boxes - used on the product pages for map source compatibility, etc. */
+div#marketBox { margin:0; padding:0; float:right; width:100%; }
+div.calloutBar { margin:0; padding:0; background:#E6E6E6 none; border:1px solid #999; text-align:left; } 
+div.calloutArrow { float:left; margin:0 8px 0 0; padding:2px 0; background:#069 none; }
+div.calloutTitle { float:left; padding:2px 0; vertical-align:middle; color:#333; font-weight:bold; }
+div.calloutContent { border:1px solid #999; border-width:0 1px 1px 1px; margin:0px; padding:8px; background:#FFF none; }
+div.spacer { clear:both; margin:0; padding:0; }
+
+/* Styles added 8-14-04 for Product Pages */
+table.products { border:2px solid #CCC; margin-bottom:24px; }
+table.products td { border-right:1px solid #CCC; padding:6px; }
+table.products td.last { border-right:none; }
+div.new { width:99%; margin:0 0 8px 0; padding:0 0 2px 0; border-bottom:2px solid #D55500; font:bold 10px/1 Verdana, Arial, sans-serif; color:#D55500; text-align:left; }
+
+/* Sidemenu Styles : added 10-19-04 */
+div#sidemenu { width:120px; margin:0; padding:0; }
+div#sidemenu dl { margin:0; padding:0; width:120px; background:#FFF none; text-align:right; border:2px solid #999; border-top:none; border-left:none; }
+html>body div#sidemenu dl {
+	/* Correct value for browsers that don't suffer from IE Win's bugs */
+	margin:0; padding:0; width:118px; background:#FFF none; text-align:right; border:2px solid #999; border-top:none; border-left:none;	}
+div#sidemenu dt { margin:0; padding:8px 4px 2px 4px; border-bottom:1px solid #999; background:#FFF none; }
+div#sidemenu dt.cell { margin:0; padding:8px 4px 2px 4px; height:12px; border-bottom:1px solid #999; background:#FFF none; }
+div#sidemenu dt.cellLast { margin:0; padding:8px 4px 2px 4px; height:12px; border-bottom:none; background:#FFF none; }
+div#sidemenu a:link { font:normal 10px/1.2 Verdana, Arial, Helvetica, sans-serif; color: #000000; text-decoration: none; display:block; }
+div#sidemenu a:visited { font:normal 10px/1.2 Verdana, Arial, Helvetica, sans-serif; color: #000000; text-decoration: none; display:block; }
+div#sidemenu a:hover { background:#E6E6E6 none; }
+
+
+/* text color */
+.textWhite { color: #FFF; }
+.textBlack { color: #000; }
+
+.debugger { border:4px solid #f0f }

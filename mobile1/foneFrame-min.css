@@ -1,0 +1,17 @@
+/*  foneFrame v1.0.1 Copyright 2011 Azalea Software, Inc. www.QRdvark.com  31aug11  */
+body{display:block;color:#000;font-family:Arial;line-height:120%;background:url(foneFrame.jpg) repeat-x scroll 0 -125px transparent}
+a{text-decoration:none}
+.pTtl{display:block;margin-left:15px;color:#000;font-size:110%;font-weight:700;padding:10px}
+#navBtn ul{text-indent:-25px;list-style-type:none}
+#navBtn ul li{display:inline}
+#navBtn ul a{text-decoration:none;color:#003;font-weight:700;padding:0 10px}
+#navBtn ul a:hover{background-color:#fff;-webkit-border-radius:5px;-moz-border-radius:5px}
+.i{display:block;clear:both;position:relative;-webkit-box-shadow:rgba(0,0,0,0.398438) 0 1px 3px;-webkit-border-radius:5px;background:0 to(#EEE));-moz-box-shadow:rgba(0,0,0,0.398438) 0 1px 3px;-moz-border-radius:5px;margin:15px;padding:15px}
+.iTtl{color:#000;position:relative;font-weight:700;margin:0 auto}
+.iDes{color:#333;font-size:90%;margin:0 10px 10px}
+.iLnk{color:#08C;margin-left:15px;font-size:85%;font-style:italic}
+.ftr{line-height:175%;font-size:60%;text-align:center}
+.smTxt{font-size:80%;line-height:150%}
+.ctr{text-align:center}
+.imgR{float:right;clear:both;margin:15px}
+.imgL{float:left;clear:both;margin:15px}

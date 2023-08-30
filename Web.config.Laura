@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  [BN, 11/8/20] -->
+
+<!-- This file is an expanded version of the original Web.config file that was in the root of Sani's 
+website starlite-intl.com.
+It was apparently generated automatically by my Visual Studio 2019 Community software or some earlier 
+version of website software that I had used, like Visual Studio 2013 Express or whatever.
+
+That part is expanded by adding a section based on the Web.config examples of 301 Redirects given by support person Laura T. 
+of HostMySite.com in her email to me of 10/19/20, that is included inside my reply to her of 11/4/20 in my email folder 
+Starlite > "2011.SEO by MainStreetHost".
+
+I am not sure where to add that 301-Redirects section. I will have to just experiment. [Not having much luck!]
+-->
+
+<configuration>
+  <system.web>
+    <compilation debug="true" targetFramework="4.0" urlLinePragmas="true" />
+    <sessionState cookieless="UseCookies" />
+  </system.web>
+  <system.webServer>
+    <httpErrors errorMode="Detailed" />
+    <rewrite>
+      <rules>
+        <rule name="HTTP to HTTPS redirect" stopProcessing="true">
+          <match url="(.*)" />
+          <conditions>
+            <add input="{HTTPS}" pattern="off" ignoreCase="true" />
+          </conditions>
+          <action type="Redirect" redirectType="Permanent" url="https://{HTTP_HOST}/{R:1}" />
+        </rule>
+      </rules>
+    </rewrite>
+  </system.webServer>
+</configuration>
+
+
+<!--
+This is the test redirect that I had put in my .htaccess.txt file that I was testing.
+
+# The following line was in the .htaccess file for setting up the 301 Redirects for the categories in the dropdown menu of starlite-intl.com
+# that I have created dedicated alternatives for. It 301-redirects the URL of their template versions to the URL of their dedicated versions.
+# e.g. /search/searchsummary.asp?CF=CSCS&AID=119&ShowPageNum=1 denotes the template version being used to display the Automotive-Fleet category
+# whereas /Automotive-Fleet/Automotive-Fleet.asp is the corresponding dedicated version that I created for that category.
+
+Redirect 301 /search/searchsummary.asp?CF=CSCS&AID=119&ShowPageNum=1 /Automotive-Fleet/Automotive-Fleet.asp
+-->
+
+<!--
+The following is based on the examples given by support person Laura T. of HostMySite.com (mentioned above).
+
+<configuration>
+<location path="https://www.starlite-intl.com/search/searchsummary.asp?CF=CSCS&AID=119&ShowPageNum=1">
+  <system.webServer>
+    <httpRedirect enabled="true" destination="https://www.starlite-intl.com/Automotive-Fleet/Automotive-Fleet.asp" httpResponseStatus="Permanent" />
+  </system.webServer>
+</location>
+
+<location path="old-page-2.html">
+  <system.webServer>
+    <httpRedirect enabled="true" destination="http://www.newsite.co.uk/new-page-b/" httpResponseStatus="Permanent" />
+  </system.webServer>
+</location>
+</configuration>
+-->

@@ -1,0 +1,14 @@
+﻿# robots.txt file for starlite-intl.com
+
+User-agent: *
+Disallow: /ADMI
+Disallow: /Admin2
+Disallow: /BKPs
+Disallow: /Dead
+Disallow: /EDATA
+Disallow: /Gen-Info
+allow: /images
+allow: /Imi
+Disallow: /Logs
+Disallow: /MyTests
+Disallow: /stats

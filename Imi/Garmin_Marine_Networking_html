@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"><title>Garmin_Marine_Networking.html</title><meta name="author" content="Star Lite International"></head><body>&nbsp;
+   <map name="m_topbarmainnav">
+<area shape="poly" coords="15,6,105,6,105,22,15,22,15,6" href="http://www.garmin.com/whatsNew/" onmouseout="FW_startTimeout();" onmouseover="window.FW_showMenu(window.fw_menu_2,171,24);"><area shape="poly" coords="111,6,181,6,181,22,111,22,111,6" href="http://www.starlite-intl.com/imi/Garmin_Marine_Networking.html#" onmouseover="window.FW_showMenu(window.fw_menu_1,264,24);" onmouseout="FW_startTimeout();"><area shape="poly" coords="187,6,250,6,250,22,187,22,187,6" href="http://www.garmin.com/support/" onmouseout="FW_startTimeout();" onmouseover="window.FW_showMenu(window.fw_menu_0,340,24);"><area shape="poly" coords="256,6,326,6,326,22,256,22,256,6" href="http://www.garmin.com/siteIndex.html"><area shape="poly" coords="332,6,411,6,411,22,332,22,332,6" href="http://www.garmin.com/howToBuy.html"></map>
+
+<map name="m_topbarrightnav2">
+<area shape="poly" coords="85,15,159,15,159,32,85,32,85,15" href="http://www.garmin.com/contactUs/"><area shape="poly" coords="29,15,79,15,79,32,29,32,29,15" href="http://shop.garmin.com"></map>
+<script language="JavaScript">
+<!--
+
+function SymError()
+{
+  return true;
+}
+
+window.onerror = SymError;
+
+//-->
+</script>
+<script language="JavaScript">
+<!--
+
+function SymError()
+{
+  return true;
+}
+
+window.onerror = SymError;
+
+var SymRealWinOpen = window.open;
+
+function SymWinOpen(url, name, attributes)
+{
+  return (new Object());
+}
+
+window.open = SymWinOpen;
+
+//-->
+</script>
+<script language="JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+ var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+   var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+   if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function fwLoadMenus() {
+  if (window.fw_menu_0) return;
+  window.fw_menu_0 = new Menu("root",128,17,"Verdana, Arial, Helvetica, sans-serif",10,"#000000","#000000","#ffffff","#cccccc");
+  fw_menu_0.addMenuItem("FAQs","location='http://www.garmin.com/support/faqs/'");
+	fw_menu_0.addMenuItem("Product Registration","location='https://www.garmin.com/registration/selectreg.jsp'");
+  fw_menu_0.addMenuItem("Technical Support","location='http://www.garmin.com/support/'");
+  fw_menu_0.addMenuItem("Software Updates","location='http://www.garmin.com/support/download.jsp'");
+  fw_menu_0.addMenuItem("Manuals","location='http://www.garmin.com/support/userManual.jsp'");
+  fw_menu_0.hideOnMouseOut=true;
+  window.fw_menu_1 = new Menu("root",121,17,"Verdana, Arial, Helvetica, sans-serif",10,"#000000","#000000","#ffffff","#cccccc");
+  fw_menu_1.addMenuItem("Aviation","location='http://www.garmin.com/aviation/'");
+  fw_menu_1.addMenuItem("Marine","location='http://www.garmin.com/marine/'");
+  fw_menu_1.addMenuItem("Outdoor","location='http://www.garmin.com/outdoor/'");
+  fw_menu_1.addMenuItem("Mobile Electronics","location='http://www.garmin.com/mobile/'");
+  fw_menu_1.addMenuItem("Cartography","location='http://www.garmin.com/cartography/'");
+  fw_menu_1.addMenuItem("OEM/Sensors","location='http://www.garmin.com/oem/'");
+  fw_menu_1.hideOnMouseOut=true;
+  window.fw_menu_2 = new Menu("root",132,17,"Verdana, Arial, Helvetica, sans-serif",10,"#000000","#000000","#ffffff","#cccccc");
+  fw_menu_2.addMenuItem("Current Promotions","location='http://www.garmin.com/whatsNew/currentpromotions/'");
+  fw_menu_2.addMenuItem("Testimonials","location='http://www.garmin.com/whatsNew/testimonials.html'");
+  fw_menu_2.addMenuItem("GPS Adventures","location='http://www.garmin.com/whatsNew/adventures.html'");
+  fw_menu_2.addMenuItem("Partnerships","location='http://www.garmin.com/whatsNew/partnerships.html'");
+  fw_menu_2.addMenuItem("Trade Shows","location='http://www.garmin.com/whatsNew/tradeShows.jsp'");
+  fw_menu_2.addMenuItem("Aviation Seminars","location='http://www.garmin.com/whatsNew/avnSeminars.jsp'");
+   fw_menu_2.hideOnMouseOut=true;
+  fw_menu_2.writeMenus();
+} // fwLoadMenus()
+//-->
+</script>
+<script language="JavaScript1.2" src="http://www.starlite-intl.com/fw_menu.js"></script>
+<script language="JavaScript1.2">fwLoadMenus();</script><!-- Main Table : Holds Everything -->
+
+
+
+
+
+
+
+
+
+
+
+<small> 
+  
+  </small><small>
+    </small>
+ 
+<table style="width: 100px; text-align: left; margin-left: auto; margin-right: auto;" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr><td style="width: 100%; vertical-align: top; font-family: helvetica,arial,sans-serif;"><!-- Breadcrumbs + Search Table --><!-- END Breadcrumbs + Search --><!-- Marine Networking Content Header --><small>
+
+
+
+
+      </small><div style="padding: 8px;"><small>
+   <img src="http://www.garmin.com/marinenetworking/graphics/wd-ProductName.gif" alt="The image &#8220;http://www.garmin.com/marinenetworking/graphics/wd-ProductName.gif&#8221; cannot be displayed, because it contains errors.">
+
+      </small></div><small>
+      </small><div class="ptext" style="padding: 0pt 0pt 0pt 8px; width: 600px; line-height: 1.5;"><small>
+      <span class="heading14">The Garmin Marine Network</span> <br>
+      </small>
+      <div style="text-align: left;"><small> The Garmin Marine Network
+is a proprietary ethernet-based network that seamlessly connects
+several plug-and-play marine components, delivering position data,
+charting, weather, sonar, radar and other important data to boaters'
+fingertips. The entire system is waterproof and completely
+plug-and-play. Anchors of the new system are the GPSMAP&reg;&nbsp;3010C
+and GPSMAP&nbsp;3006C chartplotters. These multifunction displays
+(MFDs) automatically detect any and all peripherals once they're
+connected. Boaters can connect a GPS antenna and one remote sensor
+directly to the MFD, or, with the addition of the GMS&#8482; 10 Network Port
+Expander, users can connect multiple MFDs and sensors to the same
+network. Each networked MFD can be configured independently.</small></div>
+</div><!-- END Marine Networking Content Header --><small>
+
+      </small><div style="padding: 0pt 0pt 0pt 8px; width: 600px; line-height: 1.6;"><!-- Marine Networking Products + Information --><small>
+    <img src="http://www.starlite-intl.com/imi/graphics/gr-HLines01.gif" border="0" style="width: 586px; height: 4px;">
+    
+
+      </small></div><small>
+      </small><div style="padding: 8px;"><small>
+      </small><small>
+ </small><small>
+  </small><small>
+
+            </small><small>
+  </small><small>
+  </small><small>
+          </small><table width="600" border="0" cellpadding="4" cellspacing="0"><tbody><tr valign="top"><td width="160" class="ptext"><small>
+            </small><div><small>
+            </small><div style="float: left; padding-right: 8px;">
+            <div style="float: left; padding-right: 8px;">
+   
+   <img src="http://www.starlite-intl.com/imi/gpsmap3006ct.jpg" alt="GPSMAP 3006C" style="border: 0px solid ; width: 100px; height: 71px;" class="alt" title="">
+            </div>
+
+   </div><small>
+   <span class="heading-alt03" style="font-weight: bold;">GPSMAP 3006C</span><br>
+
+
+   A multifunction-display chartplotter with a 6.4 inch diagonal screen, an anchor of the Garmin Marine Network.<br>
+
+   <br>
+            </small>
+            <div style="float: left; padding-right: 8px;">
+   <a href="http://www.garmin.com/products/gpsmap3010c/">
+   <img src="http://www.garmin.com/marinenetworking/graphics/pt-gpsmap3010cRF-IC.jpg" alt="GPSMAP 3010C" width="60" height="60" border="0"></a>
+            </div>
+            <br>
+</div><small>
+            </small><div><small>
+            </small><div style="float: left; padding-right: 8px;">
+            <div style="float: left; padding-right: 8px;">
+   <a href="http://www.garmin.com/products/gpsmap3010c/">
+   </a>
+            </div>
+            <a href="http://www.starlite-intl.com/products/gpsmap3010c/">
+
+
+            </a>
+            <div style="float: left; padding-right: 8px;">
+   <a href="http://www.garmin.com/products/gpsmap3010c/">
+   </a>
+            </div>
+</div><small>
+   <span class="heading-alt03">GPSMAP  3010C</span><br>
+
+   A multifunction-display chartplotter with a 10.4 inch diagonal screen, an anchor of the Garmin Marine Network.<br>
+
+
+   <br>
+
+   <br>
+            </small></div><small>
+            </small><div><small>
+            </small><div style="float: left; padding-right: 8px;">
+            <div style="float: left; padding-right: 8px;">
+   <a href="http://www.garmin.com/products/gdl30/">
+   <img src="http://www.starlite-intl.com/imi/gdl30t.jpg" alt="GDL 30/30A" style="border: 0px solid ; width: 100px; height: 57px;" title=""></a>
+            </div>
+
+   </div><small>
+   <span class="heading-alt03" style="font-weight: bold;">GDL<sup>&reg;</sup> 30/30A</span><br>
+This weather data receiver delivers real-time XM WX Satellite Weather
+data to the GPSMAP&nbsp;3006C and GPSMAP&nbsp;3010C (includes
+GA&nbsp;31 antenna).<br>
+<br>
+
+
+   <br>
+
+   </small></div><small>
+	 </small><div><small>
+            </small><div style="float: left; padding-right: 8px;"><a href="http://www.starlite-intl.com/products/gsd20/">
+
+
+	 
+            </a>
+            <div style="float: left; padding-right: 8px;">
+   <a href="http://www.garmin.com/products/gdl30/">   </a>
+            </div>
+</div><small style="font-weight: bold;">
+   <span class="heading-alt03">GSD 20</span></small><a href="http://www.garmin.com/products/gsd20/"><img src="http://www.starlite-intl.com/imi/gsd20t.jpg" style="border: 0px solid ; height: 61px; width: 100px;" alt="GSD 20" hspace="5" title=""></a><small><br></small><small>The 3000 series</small><small> re</small><small>ceives sonar data through this "black box" sounder.</small></div></td><td><small><img src="http://www.starlite-intl.com/imi/graphics/gr-VLines01.gif" width="5" height="370" border="0"></small></td><td class="ptext"><small>
+ </small><p><span class="ptext10"><img src="http://www.starlite-intl.com/imi/pt-MarineNetwork.jpg" alt="Garmin Marine Network" style="border: 0px solid ; width: 384px; height: 224px;" usemap="#Map" title=""></span><br>
+            <small><span class="ptext10">
+ 		Image shows multiple MFDs and sensors connected to the Garmin Marine Network</span></small></p><small>
+ </small><p><small><span class="heading14">Seamless Integration</span><br>
+When using the Garmin Marine Network, mariners have complete awareness
+of what's happening around them. By adding various marine components,
+boaters can integrate position data, charting, weather, sonar, radar,
+and other important data to their system.</small></p><small>
+ </small><p><small><span class="heading14">Easy-to-use</span><br>
+The Garmin Marine Network is completely plug-and-play and is anchored
+by the GPSMAP&nbsp;3006C and GPSMAP&nbsp;3010C &#8212; two multifunction
+displays (MFDs) that have customizable screens. Garmin's user-friendly
+operation ensures even novice boaters can operate the system with
+confidence. The MFDs automatically detect any and all peripherals once
+they're connected. The same network cable is used for both unit-to-unit
+and unit-to-network connections.</small></p><small> 
+ </small><p><small><span class="heading14">Expandable</span><br>
+Boaters can connect a GPS antenna and one remote sensor directly to the
+MFD, or, with the addition of the GMS 10 Network Port Expander, users
+can connect multiple MFDs and sensors to the same network. Each
+networked MFD can be configured independently.</small></p><small>
+   </small></td></tr></tbody></table><small>
+
+      </small></div><!-- END Marine Networking Products + Information --><small>
+
+
+  </small></td></tr>
+<tr>
+    <td width="120" height="15" align="center" valign="bottom"><font face="Arial, Helvetica, sans-serif"><a href="http://www.starlite-intl.com/imi/Garmin_Marine_Networking.html#top"><font size="1"><br>
+</font></a>
+    </font></td></tr></tbody>
+</table>
+</body></html>

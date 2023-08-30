@@ -1,0 +1,11 @@
+vti_encoding:SR|utf8-nl
+vti_author:SR|ADONIS\\starliteintlcom
+vti_modifiedby:SR|ADONIS\\starliteintlcom
+vti_timelastmodified:TR|26 Mar 2010 22:25:09 -0000
+vti_timecreated:TR|06 Mar 2006 03:20:37 -0000
+vti_lineageid:SR|{0B4703E6-54DE-4D54-B53B-D8E2E24E6475}
+vti_extenderversion:SR|5.0.2.6790
+vti_backlinkinfo:VX|
+vti_nexttolasttimemodified:TR|06 Mar 2006 03:24:02 -0000
+vti_cacheddtm:TX|06 Mar 2006 03:20:37 -0000
+vti_filesize:IR|5681

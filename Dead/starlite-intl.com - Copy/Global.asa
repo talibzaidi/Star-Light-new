@@ -1,0 +1,94 @@
+<SCRIPT LANGUAGE=VBScript RUNAT=Server>
+
+SUB Application_OnStart
+	'==Visual InterDev Generated - startspan==
+	'-- Project Data Environment
+		'Set DE = Server.CreateObject("DERuntime.DERuntime")
+		'Application("DE") = DE.Load(Server.MapPath("Global.ASA"), "_private/DataEnvironment/DataEnvironment.asa")
+	'==Visual InterDev Generated - endspan==
+END SUB
+</SCRIPT> 
+
+
+
+<SCRIPT LANGUAGE=VBScript RUNAT=Server>
+SUB Application_OnEnd
+END SUB
+</SCRIPT>
+
+
+<SCRIPT LANGUAGE=VBScript RUNAT=Server>
+SUB Session_OnStart
+	Session.Timeout  = 95
+
+	' 6/13/12: Old approach, using DSN-type string. Being phased out.
+	'Session("ConnectionString") = "dsn=STAREC1;uid=STARCART;pwd=9fo77mnm" 
+
+	' 6/13/12: New approach, using regular connection string. Being phased in.
+	' Based on method I used at the the Teshuba site:
+
+    ' 8/7/15, ON OLD SERVER.
+	'Response.Write Server.MapPath("searchsummary.asp")		' This is just to help figure out physical path to use for Session("ConnectionString2").
+	'Session("ConnectionString2") = "Provider=Microsoft.Jet.OLEDB.4.0;" & _
+    '             "Data Source=C:\websites\4rft4c\EDATA\ec-star-001.mdb;" & _
+    '             "Persist Security Info=False"
+
+    ' 8/7/15: New approach, using regular connection string. Being phased in.
+	' Based on method I used at the the Teshuba site:
+
+
+    ' 8/7/15, ON NEW SERVER.
+    ' For original (first) database of opted-in starlite-intl.com customers, using original db name ec-star-001.mdb.
+    'Session("ConnectionString") = "Provider=Microsoft.Jet.OLEDB.4.0;" & _
+    '             "Data Source=C:\CustomerData\webspaces\webspace_00244751\wwwroot\starlite-intl.com\EDATA\ec-star-001.mdb;" & _
+    '             "Persist Security Info=False"
+
+    ' For original (first) database of opted-in starlite-intl.com customers, using new db name OptedInMailingList.mdb.
+    Session("ConnectionString") = "Provider=Microsoft.Jet.OLEDB.4.0;" & _
+                 "Data source=C:\CustomerData\webspaces\webspace_00244751\wwwroot\starlite-intl.com\EDATA\OptedInMailingList.mdb;" & _
+                 "Persist Security Info=False"
+
+    ' For new (second) database of company mailing addresses purchased from INFO-USA in Oct. 2015.
+    'Session("ConnectionString2") = "Provider={Microsoft Access Driver (*.mdb, *.accdb};" & _
+    '             "Data Source=C:\CustomerData\webspaces\webspace_00244751\wwwroot\starlite-intl.com\EDATA\PMailingList1.accdb;" & _
+    '             "Persist Security Info=False"
+
+    ' For new (second) database of company mailing addresses purchased from INFO-USA in Oct. 2015.
+    ' See https://www.connectionstrings.com/access-2007/
+    'Session("ConnectionString2") = "Provider=Microsoft.ACE.OLEDB.12.0;" & _
+    '            "Data Source=C:\CustomerData\webspaces\webspace_00244751\wwwroot\starlite-intl.com\EDATA\PurchasedMailingList1.accdb;" & _
+    '            "Persist Security Info=False"
+
+    ' For new (second) database of company mailing addresses purchased from INFO-USA in Oct. 2015.
+    ' We're using this version of ConnectionString2 because it looks like HostMySite.com does not / may not have the necessary
+    ' Provider=Microsoft.ACE.OLEDB.12.0 that is needed to connect to a .accdb version (the newer Access format) PurchasedMailingList1.accdb of this new (second) database.
+    ' We therefore created a .mdb version (the older Access format) PurchasedMailingList1.mdb so we can use the Provider that has always work for the original (first) db = OptedInMailingList.mdb = ec-star-001.mdb.
+    ' This approach does seem to work.
+    Session("ConnectionString2") = "Provider=Microsoft.Jet.OLEDB.4.0;" & _
+                 "Data source=C:\CustomerData\webspaces\webspace_00244751\wwwroot\starlite-intl.com\EDATA\PurchasedMailingList1.mdb;" & _
+                 "Persist Security Info=False"
+
+    ' 11/17/15: Full version of db.
+    Session("ConnectionString2") = "Provider=Microsoft.Jet.OLEDB.4.0;" & _
+                 "Data source=C:\CustomerData\webspaces\webspace_00244751\wwwroot\starlite-intl.com\EDATA\PurchasedMailingList1.Full.mdb;" & _
+                 "Persist Security Info=False"
+
+    ' 11/12/15: For test purposes. DB has only 4 records.
+    Session("ConnectionString3") = "Provider=Microsoft.Jet.OLEDB.4.0;" & _
+                 "Data source=C:\CustomerData\webspaces\webspace_00244751\wwwroot\starlite-intl.com\EDATA\PurchasedMailingList1.Tiny.mdb;" & _
+                 "Persist Security Info=False"
+
+
+	Session("Country") = "USA"
+	Session("Visit") = "0"
+	Session("Count") = 0    ' to generate unique keys for the dictionaries
+
+	'Session("Connection1_ConnectionString") = "dsn=STAREC1;uid=STARCART;pwd=9fo77mnm"
+END SUB
+</SCRIPT>
+
+
+<SCRIPT LANGUAGE=VBScript RUNAT=Server>
+ SUB Session_OnEnd
+ END SUB
+</SCRIPT>

@@ -1,0 +1,215 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+<title>GPS Best Source: Garmin GPS, USglobalSat GPS, Pharos GPS, GPS Sensors, GPS engines, OEM GPS, GPS boards, Marine radar, Cartography</title>
+<meta name="keywords" content="GPS,GPS sensors,GPS sensor,GPS engine,OEM GPS,GPS OEM,GPS board,GPS engine boards,garmin GPS,USGlobalsat GPS,pharos GPS,GPS navigation,GPS 15,GPS 16,GPS 18,PDA,mr350,sensor,GPS18PC,em-408,em411,bu 353,GPS 16LVS,GPS 17HVS,GPS18 sensor,Edge 305hr,GPS18,GPS 18LVC,GPS system,auto GPS,GPS equipment,StreetPilot,bluetooth GPS,BT 359,handheld GPS,fixed mount GPS,Nuvi350,Nuvi 360,Nuvi 660,forerunner 201,br355,bu353,marine GPS,GPS receiver,GPS accessories,fish finder,sounders,transducers,cartography,GPS mapping software,GMR 41,GMR404,GDL 30,GXM 30,GTM 12,GTM10,GTM20,GVN52,GPSMAP,tracking GPS,navigation electronics,gps tracking,low cost GPS,GPS specials,AVL,fleet tracking GPS,fleet management,passive GPS,real-time GPS,active antenna,equipment tracking,covert gps,automatic vehicle locator,GPS navagation,marine networking,marine navigation,SIRF,marine radar,Authorized GPS dealers,GPS resellers,GPS business,gps wholesale">
+<meta name="description" content="The GPS source for Garmin GPS and USglobal GPS. GPS sensors, OEM GPS, GPS boards, GPS accessories, tracking GPS, bluetooth GPS, GPS network systems, GPS antennas, Marine GPS, Marine radar, Navigation Mapping software, fish finders and sounders.">
+<meta name="author" content="Star Lite International, LLC">
+<meta name="copyright" content="2007 Star Lite International, LLC">
+<meta name="revisit-after" content="15 days">
+<meta name="distribution" content="global">
+<meta name="robots" content="index,follow">
+<meta name="rating" content="general">
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="content-language" content="en">
+<meta name="DC.Title" content="Star Lite International, LLC">
+<meta name="DC.Description" content="The best GPS source for Garmin GPS, USglobalsat GPS and Pharos GPS. GPS sensors, oem gps, GPS receivers, gps board, tracking GPS, bluetooth GPS, GPS network, GPS antenna, fish finders and sounders, GPS accessories, tracking GPS, Marine GPS, Marine radar">
+<meta name="abstract" content="The source for  GPS, GPS sensors, oem GPS, OEM engine boards, hand held and fixed mount GPS, cartography and GPS accessories">
+<!-- <link rel="stylesheet" href="style_new.css" type="text/css"> -->
+<link rel="stylesheet" href="../../../Misc/StyleSheet1.css" type="text/css">
+
+
+
+<%@ LANGUAGE = VBScript %>
+
+<% response.buffer=true %>
+
+<% ar = Request("Area") %>
+<% Area = Request("Area") %>
+
+<% sar = ReQuest("sar") %>
+<% 'sar = Replace( sar, " ", "%20") %>
+<% SID = ReQuest("SID") %>
+
+<% if Area="iii" then
+   Area = Request("Manufat")
+   ar = Request("Manufat")
+   end if
+   
+   if Area = "New Products" then
+     response.redirect "./scart.asp?pid=0&sid=11&area=New!&sar=New%20Products"
+   end if    
+
+   if Area="Choose a catalog area." then
+   response.redirect "http://www.starlite-intl.com/index.asp"
+   end if
+   
+   If (Request("Canada") <> "" OR Request("  USA  ") <> "") then
+		If Request("Canada") <> "" then
+			Session("Country") = "Canada"
+		else
+			Session("Country") = "USA"
+		end if
+	end if
+%>
+
+
+
+<% ' <meta name="Author" content=" IAC @ www.ontbiz.com/iac - Designed and Programmed by Anyperson.Com www.anyperson.com/tds"> %>
+
+
+<script language="Javascript">
+<!--
+    once = new MakeArray(6)
+    over = new MakeArray(6)
+    under = new MakeArray(6)
+    standard = new MakeArray(1)
+    once[0].src = "../Images/question1.gif"
+    once[1].src = "../Images/scart1.gif"
+    once[2].src = "../Images/home1.gif"
+    once[3].src = "../Images/new1.gif"
+	once[4].src = "../Images/cat1.gif"
+    once[5].src = "../Images/ex1.gif"    
+    over[0].src = "../Images/question2.gif"
+    over[1].src = "../Images/scart2.gif"
+    over[2].src = "../Images/home2.gif"
+    over[3].src = "../Images/new2.gif"
+    over[4].src = "../Images/cat2.gif"
+    over[5].src = "../Images/ex2.gif"
+    under[0].src = "../Images/helpnav.gif"
+    under[1].src = "../Images/shoppingcartnav.gif"
+    under[2].src = "../Images/homenav.gif"
+    under[3].src = "../Images/newproductsnav.gif"
+    under[4].src = "../Images/onlinecataloguenav.gif"
+    under[5].src = "../Images/specialsnav.gif"
+    standard[0].src = "../Images/emptynav.jpg"
+    
+    
+function MakeArray(n) 
+    {
+    this.length = n
+    for (var i = 1; i<=n; i++) 
+        {
+        this[i-1] = new Image()
+        }
+    return this
+    }
+
+function msover(inum,d_inum) 
+    {
+        if ((over[inum].src != "")) 
+            {
+            document.images[d_inum].src = over[inum].src
+            document.images[7].src = under[inum].src
+            }
+    }
+
+
+function msout(inum,d_inum) 
+    {
+        if ((once[inum].src != "")) 
+            {
+            document.images[d_inum].src = once[inum].src
+            document.images[7].src = standard[0].src
+            }
+    }
+
+// -->
+</script>
+</head>
+
+
+
+<body bgcolor="#FFFFFF" link="#000000" vlink="#000000" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
+
+<table border="0" bordercolor="green" bgcolor="slateblue" align="center">		<% ' Start Table 1 %>
+<tr><td>
+
+<!--#include file="../Misc/Header.INC"-->
+
+
+<table border="0" bordercolor="red" cellpadding="0" cellspacing="0" align="center" width="950"> <% ' Start Table 1.1 %>
+
+    <tr>
+		<td background="../../../Images/goldbackground222.jpg" width="223" valign="top" align="center">
+
+			<table border="0" bordercolor="red" cellpadding="20" cellspacing="0">   <% ' Start Table 1.1.1 %>
+				<tr>
+					<td align="left" valign="top" align="center">
+						<form method="get" name="Country">
+							<p align='center'><br>
+							<font face="Tahoma">You are currently a 
+							<% If Session("Country") = "Canada" Then%>
+								<img src="../../../Images/can1.gif" WIDTH="36" HEIGHT="18"> 
+								<%elseif Session("Country") = "USA" Then %>
+									<img src="../../../Images/USA1.gif" WIDTH="34" HEIGHT="18"> 
+								<%end if%>
+								customer. Click on a country below to change countries.
+								</font></p>
+                                
+							<p align="center">
+							<font face="Tahoma">
+							<input type="submit" name="Canada" value="Canada">
+							</font><font face="Tahoma">
+							<input type="submit" name="  USA  " value="USA">
+							</font></p>
+							
+						<input type="hidden" name="Area" value="<%=request("Area")%>">
+						<input type="hidden" name="Manufat" value="<%=request("Manufat")%>">
+						<input type="hidden" name="sar" value="<%=request("sar")%>">
+						<input type="hidden" name="SID" value="<%=request("SID")%>">
+						<input type="hidden" name="action" value="<%=request("action")%>">
+						<input type="hidden" name="Manufa" value="<%=request("Manufa")%>">
+						</form>
+					</td>
+				</tr>
+			</table>	<% ' End Table 1.1.1 %>
+			
+			<br>
+			<!--#include virtual="INC/Ads.inc"-->		
+		</td>
+						
+					
+		<td background="../../../Images/bluebackground2.jpg" valign='top'>
+            
+					<table border="0" cellpadding="10" cellspacing="0" align="center">  <% ' Start Table 1.1.2 %>
+					<tr>
+						<td valign="top" align="center">
+						<!--#include file="BANNER.INC"-->
+						<!--#include file="SCART.INC"-->
+						
+
+												<% ' Start Table 1.1.2.1 %>
+                		
+                		<table border="0" cellpadding="3" cellspacing="0" width="95%" bordercolor="#000000">
+                    		<tr>
+                        		<td align="center"><a href="#top"><font size="3"><strong></strong></font></a></td>
+                    		</tr>
+                		</table>				<% ' End Table 1.1.2.1 %>
+                
+						</td>
+					</tr>
+					</table>		<% ' End Table 1.1.2 %>
+					
+            		
+            		
+		</td>
+            
+	</tr>
+
+			 
+</table>		<% ' End Table 1.1 %>
+       		
+       		 
+	<!--#include file="../Misc/Footer.INC"-->
+
+    </td>
+	</tr>
+</table>   <% ' End Table 1 %>
+
+
+</body>
+
+
+</html>

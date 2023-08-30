@@ -1,0 +1,28 @@
+** Do Not Remove This Document **
+
+Sanction - The Active web tool for mission critical administration.
+Is copyright 1999 AnyPerson Dot Com.
+
+Version Orange was developed for use by I.A.C.
+(Internet Advertising Corporation). 
+
+Sanction is a comprehensive suite of context sensitive tools designed
+for the back end administration of web sites.
+
+This tool is not to be reverse engineered, changed, or modified in anyway 
+without the consent of AnyPerson Dot Com.
+
+Version Orange Is for the internal use  only.
+
+All other versions of Sanction are Property of AnyPerson Dot Com unless 
+otherwise specified.
+
+This tool shall not be modified, adapted or transferred in whole or in part,
+to any other website, server, or computer, the database which this tool 
+connects to is considered to be a part of the tool exclusive of any data 
+it may hold. 
+
+Backups may be freely made  but are not
+to be accessible to the internet or used to access any internet site.
+
+** License Agreement - By accessing the Sanction tool you agree to the terms and conditions. **

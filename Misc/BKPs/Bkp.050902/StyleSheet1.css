@@ -1,0 +1,53 @@
+BODY
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Tahoma, Verdana, Arial, sans-serif
+}
+A:active
+{
+    BACKGROUND-COLOR: mediumslateblue
+}
+A:hover
+{
+    COLOR: white;
+    BACKGROUND-COLOR: gray
+}
+INPUT
+{
+    FONT-FAMILY: Arial, sans-serif
+}
+SELECT
+{
+    FONT-FAMILY: Arial, sans-serif
+}
+A:link
+{
+    COLOR: black
+}
+A:visited
+{
+    COLOR: black
+}
+MYTAG
+{
+    COLOR: red
+}
+.AdminClass
+{
+    FONT-SIZE: 8pt;
+    COLOR: black
+}
+.AdminClass B
+{
+    FONT-WEIGHT: bolder;
+    COLOR: blue;
+    BACKGROUND-COLOR: transparent
+}
+TD
+{
+    FONT-FAMILY: Tahoma
+}
+B
+{
+    FONT-FAMILY: Tahoma
+}

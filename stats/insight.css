@@ -1,0 +1,13 @@
+input
+ { font-size: 9pt; line-height: 12pt; font-family: "Times New Roman", Georgia, Times }
+textarea { font-size: 9pt; font-family: "Times New Roman", Georgia, Times }
+.dbot { color: red; font-size: 7pt; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+.menu
+   { color: black; font-weight: bold; font-size: 10pt; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: none }
+A:Hover { color: red }
+.reccount    { color: black; font-style: italic; font-weight: bold; font-size: 8pt; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+.title  { color: black; font-weight: bold; font-size: 9pt; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+.datatext  { color: black; font-size: 12pt; font-family: "Times New Roman", Georgia, Times }
+.descriptive  { color: black; font-size: 10pt; font-family: "Times New Roman", Georgia, Times }
+.error   { color: red; font-size: 12px; font-family: Arial, Helvetica, sans-serif }
+.statsreport { font-size: 10pt; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }

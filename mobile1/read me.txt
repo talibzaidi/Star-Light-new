@@ -1,0 +1,11 @@
+foneFrame is a template for building mobile web pages using HTML5 and CSS3. Use foneFrame to build web pages designed specifically for smartphones like Android and iPhone.
+
+The basic foneFrame mobile template is free and licensed under Creative Commons (CC BY 3.0). The full version of foneFrame formats XML, RSS, and SSI files as well, turning them into mobile web pages by applying CSS style sheets to them.
+
+foneFrame is the fastest way to build a mobile website. It's ideal for alerts and updates. Modify the look and feel of your mobile site by editing the style sheet. Use foneFrame along with other popular web dev tools like jQuery and Phonegap.
+
+foneFrame is available now [ www.QRdvark.com/foneFrame/ ] from Azalea Sofware, Inc. and is one of a number of mobile dev tools from this innovative Seattle WA software company.
+
+Azalea Software, Inc.
+QRdvark.com/foneFrame/
+foneFrame@azalea.com

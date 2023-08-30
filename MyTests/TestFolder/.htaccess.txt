@@ -1,0 +1,19 @@
+
+# 11/8/20: Sani's ISP HostMySite.com informed me, after making this test .htaccess.txt file, that a .htaccess.txt 
+# file is only applicable on a Linux server. But starlite-intl.com is hosted on a Windows server, so I need to 
+# use a Web.config file instead. 
+# See my "Starlite Work Log" file, under References tab > "301 Redirects at HostMySite.com".
+
+# This is the .htaccess file for setting up the 301 Redirects for the categories in the dropdown menu of starlite-intl.com
+# that I have created dedicated alternatives for. It 301-redirects the URL of their template versions to the URL of their dedicated versions.
+# e.g. /search/searchsummary.asp?CF=CSCS&AID=119&ShowPageNum=1 denotes the template version being used to display the Automotive-Fleet category
+# whereas /Automotive-Fleet/Automotive-Fleet.asp is the corresponding dedicated version that I created for that category.
+
+# See https://solutions.hostmysite.com/index.php?/Knowledgebase/Article/View/8805/0/how-to-configure-redirects-via-an-htaccess-file
+
+Redirect 301 /search/searchsummary.asp?CF=CSCS&AID=119&ShowPageNum=1 /Automotive-Fleet/Automotive-Fleet.asp
+
+# ? Looks like I'll need a separate 301 Redirect for every possible value of ShowPageNum IF more than 1 page is needed (but that probably won't 
+# ? occur for the handful of small categories that Sani wants SEO for.) AND a separate dedicated version for each of those page numbers.
+# ? And also for the cases where CF and/or AID parameters may be missing because they are implicit, IF such cases occur (but that probably won't  
+# ? occur for the handful of small categories Sani wants SEO for. 
